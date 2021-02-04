@@ -1,0 +1,20 @@
+{
+    "name": "jeka/expert",
+    "description": "tz img",
+    "authors": [
+        {
+            "name": "jeka",
+            "email": "yaroshjeka@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+  "autoload": {
+    "psr-4": {
+
+        "App\\": "app/"
+
+      }
+  }
+
+}

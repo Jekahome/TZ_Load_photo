@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;/* inline-flex,flex*/
+    /* flex-direction направление выравнивания блоков горизонтально (по умолчанию) или вертикально */
+    /*flex-direction: row;/* row,row-reverse , column ,column-reverse */
+
+    /* flex-wrap отвечает за перенос блоков flex .По умолчанию переносить wrap*/
+    /*flex-wrap:wrap;/* nowrap,wrap,wrap-reverse */
+
+    /* короткая форма записи заменяющая flex-flow:flex-direction flex-wrap */
+    flex-flow: row wrap;
+
+    /* выравнивание flex блоков по горизонтали */
+    /*space-between левый к левому правый к правому а центральные распределяются по центру*/
+    /* space-arround равномерное распределение*/
+    justify-content: flex-start;/* center,flex-end,flex-start,space-between ,space-around*/
+
+    /* выравнивание flex блоков по вертикали */
+    align-items: flex-end;/*baseline, center,flex-end,flex-start,space-between ,space-arround*/
+
+    /* Заполнение блоков flex по вертикали. Если установленно flex-flow*/
+    /*align-content: flex-start;*/
+    background-color: white;
+    /* height: 500px;*/
+}
+
+.flex-item
+{
+    flex: 0.2 1 auto;
+    background-color: white;
+    height: 200px;
+    border: 1px solid white;
+}
